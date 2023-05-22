@@ -119,7 +119,8 @@ export default function Shopping() {
                       <h5>8.5</h5>
                       <button onClick={() => AddPrice(239.55)} >Add to cart</button>
                   </div>
-              </div>
+        </div>
+        <div className="after"></div>
         </div>
           <div className="flex">
                   <div className="img">
@@ -135,7 +136,8 @@ export default function Shopping() {
                       <h5>S</h5>
                       <button onClick={() => AddPrice(14.99)} >Add to cart</button>
                   </div>
-                </div>
+        </div>
+        <div className="after"></div>
         </div>
           <div className="flex">
               <div className="img">
@@ -151,7 +153,8 @@ export default function Shopping() {
           <button className='last' onClick={() => AddPrice(1850.00)} >Add to cart</button>
           </div>
         </div>
-        </div>
+      </div>
+      <div className="after last-after"></div>
        <div className="total-flex">
             <h6>Total</h6>
             <div>{TotalPrices}</div>
