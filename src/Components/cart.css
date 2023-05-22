@@ -1,0 +1,154 @@
+*{
+    box-sizing:border-box ;
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 390px;
+    max-height: 844px;
+    margin: 0 auto;
+}
+.cart-container{
+    width: 100%;
+    height: 100%;
+    background: #E5E5E5;
+}
+.cart-header{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-container h1{
+    margin: 22px 0 0 62px;
+    height: 24px;
+    width: 160px;
+    left: 22px;
+    top: 63px;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 65px;
+}
+.shoppingBag{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cart-header .relative{
+    position: relative;
+    margin-top: 20px;
+
+}
+.cart-header button{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left:-7px;
+    top: -8px;
+    background: rgba(255, 0, 0, 1);
+    color: #ffff;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+span{
+    text-align: center;
+    margin-left: 170px;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    color : rgba(0, 0, 0, 0.5); 
+}
+
+.flex{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.margin{
+    margin-top: 38px;
+}
+.flex img{
+    margin-left: 32px;
+    cursor: pointer;
+}
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    cursor: pointer;
+}
+.flex3{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    align-items: center;
+}
+.flex4{
+    display: flex;
+}
+.last{
+    margin-top:40px;
+    margin-left: 50px;
+}
+.items button{
+    height: 20px;
+    width: 106px;
+    left: 276px;
+    top: 255px;
+    border-radius: 48px;
+    background: rgba(217, 65, 65, 1);
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+}
+.items.last{
+   float: right;
+}
+.total-flex {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(57, 57, 57, 1);
+    margin-top: 135px;
+}
+.total-flex h6{
+    height: 17px;
+    width: 39px;
+    left: 24px;
+    top: 637px;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 20px;
+}
+.total-flex div{
+    margin-right: 20px;
+}
+.checkout{
+    height: 52px;
+    width: 234px;
+    left: 76px;
+    top: 765px;
+    border-radius: 48px;
+    padding: 16px 72px 16px 72px;
+    background: rgba(57, 57, 57, 1);
+    color: #ffff;
+    top: 16px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 110px;
+    margin-left: 73px;
+    margin-bottom: 27px;
+    cursor: pointer;
+}
