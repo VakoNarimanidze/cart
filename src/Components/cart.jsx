@@ -81,7 +81,7 @@ export default function Shopping() {
   const [items, setItems] = useState([]);
 
 
-  const AddToCart = (price) => {
+  const AddPrice = (price) => {
     items.push(price);
     setItems([...items]);
   };
@@ -117,7 +117,7 @@ export default function Shopping() {
                   <p>Superstar</p>
                   <div className="flex3">
                       <h5>8.5</h5>
-                      <button onClick={() => AddToCart(239.55)} >Add to cart</button>
+                      <button onClick={() => AddPrice(239.55)} >Add to cart</button>
                   </div>
               </div>
         </div>
@@ -133,7 +133,7 @@ export default function Shopping() {
                   <p>T-Shirt</p>
                   <div className="flex3">
                       <h5>S</h5>
-                      <button onClick={() => AddToCart(14.99)} >Add to cart</button>
+                      <button onClick={() => AddPrice(14.99)} >Add to cart</button>
                   </div>
                 </div>
         </div>
@@ -148,7 +148,7 @@ export default function Shopping() {
           </div>
           <div className="flex4">
             <p>CG Marmont</p>
-          <button className='last' onClick={() => AddToCart(1850.00)} >Add to cart</button>
+          <button className='last' onClick={() => AddPrice(1850.00)} >Add to cart</button>
           </div>
         </div>
         </div>
